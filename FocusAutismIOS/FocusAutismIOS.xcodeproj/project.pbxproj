@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000001 /* FocusAutismIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000001 /* FocusAutismIOSApp.swift */; };
+		A10000002 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000002 /* AppState.swift */; };
+		A10000003 /* TaskModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000003 /* TaskModels.swift */; };
+		A10000004 /* EmotionalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000004 /* EmotionalModels.swift */; };
+		A10000005 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000005 /* ColorExtension.swift */; };
+		A10000006 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000006 /* MainTabView.swift */; };
+		A10000007 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000007 /* FocusView.swift */; };
+		A10000008 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000008 /* TaskListView.swift */; };
+		A10000009 /* EmotionDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000009 /* EmotionDashboardView.swift */; };
+		A10000017 /* IOSToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000017 /* IOSToolsView.swift */; };
+		A10000018 /* IOSProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000018 /* IOSProgressView.swift */; };
+		A10000019 /* IOSEmotionLoggerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000019 /* IOSEmotionLoggerSheet.swift */; };
+		A10000020 /* IOSBreathingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020 /* IOSBreathingSheet.swift */; };
+		A10000021 /* IOSGroundingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000021 /* IOSGroundingSheet.swift */; };
+		A10000022 /* IOSTaskEditorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000022 /* IOSTaskEditorSheet.swift */; };
+		A10000023 /* IOSSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000023 /* IOSSettingsView.swift */; };
+		A10000024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000024 /* Assets.xcassets */; };
+		A10000025 /* IOSBodyScanSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000025 /* IOSBodyScanSheet.swift */; };
+		A10000026 /* IOSMuscleRelaxationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000026 /* IOSMuscleRelaxationSheet.swift */; };
+		A10000027 /* IOSCognitiveReframingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000027 /* IOSCognitiveReframingSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000001 /* FocusAutismIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusAutismIOSApp.swift; sourceTree = "<group>"; };
+		A20000002 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A20000003 /* TaskModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModels.swift; sourceTree = "<group>"; };
+		A20000004 /* EmotionalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalModels.swift; sourceTree = "<group>"; };
+		A20000005 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		A20000006 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A20000007 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		A20000008 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		A20000009 /* EmotionDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionDashboardView.swift; sourceTree = "<group>"; };
+		A20000017 /* IOSToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSToolsView.swift; sourceTree = "<group>"; };
+		A20000018 /* IOSProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSProgressView.swift; sourceTree = "<group>"; };
+		A20000019 /* IOSEmotionLoggerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSEmotionLoggerSheet.swift; sourceTree = "<group>"; };
+		A20000020 /* IOSBreathingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSBreathingSheet.swift; sourceTree = "<group>"; };
+		A20000021 /* IOSGroundingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSGroundingSheet.swift; sourceTree = "<group>"; };
+		A20000022 /* IOSTaskEditorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTaskEditorSheet.swift; sourceTree = "<group>"; };
+		A20000023 /* IOSSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSSettingsView.swift; sourceTree = "<group>"; };
+		A20000024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000025 /* IOSBodyScanSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSBodyScanSheet.swift; sourceTree = "<group>"; };
+		A20000026 /* IOSMuscleRelaxationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSMuscleRelaxationSheet.swift; sourceTree = "<group>"; };
+		A20000027 /* IOSCognitiveReframingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSCognitiveReframingSheet.swift; sourceTree = "<group>"; };
+		A30000001 /* FocusAutismIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusAutismIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000002 /* FocusAutismIOS */,
+				A50000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000002 /* FocusAutismIOS */ = {
+			isa = PBXGroup;
+			children = (
+				A20000001 /* FocusAutismIOSApp.swift */,
+				A50000003 /* Models */,
+				A50000004 /* ViewModels */,
+				A50000005 /* Views */,
+				A50000007 /* Utilities */,
+				A20000024 /* Assets.xcassets */,
+			);
+			path = FocusAutismIOS;
+			sourceTree = "<group>";
+		};
+		A50000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000003 /* TaskModels.swift */,
+				A20000004 /* EmotionalModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000002 /* AppState.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A50000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000006 /* MainTabView.swift */,
+				A20000007 /* FocusView.swift */,
+				A20000008 /* TaskListView.swift */,
+				A20000009 /* EmotionDashboardView.swift */,
+				A20000017 /* IOSToolsView.swift */,
+				A20000018 /* IOSProgressView.swift */,
+				A50000006 /* Sheets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000006 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				A20000019 /* IOSEmotionLoggerSheet.swift */,
+				A20000020 /* IOSBreathingSheet.swift */,
+				A20000021 /* IOSGroundingSheet.swift */,
+				A20000022 /* IOSTaskEditorSheet.swift */,
+				A20000023 /* IOSSettingsView.swift */,
+				A20000025 /* IOSBodyScanSheet.swift */,
+				A20000026 /* IOSMuscleRelaxationSheet.swift */,
+				A20000027 /* IOSCognitiveReframingSheet.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		A50000007 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A20000005 /* ColorExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A50000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000001 /* FocusAutismIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000001 /* FocusAutismIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000003 /* Build configuration list for PBXNativeTarget "FocusAutismIOS" */;
+			buildPhases = (
+				A70000001 /* Sources */,
+				A70000002 /* Resources */,
+				A40000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusAutismIOS;
+			productName = FocusAutismIOS;
+			productReference = A30000001 /* FocusAutismIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A80000001 /* Build configuration list for PBXProject "FocusAutismIOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000001;
+			productRefGroup = A50000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000001 /* FocusAutismIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000001 /* FocusAutismIOSApp.swift in Sources */,
+				A10000002 /* AppState.swift in Sources */,
+				A10000003 /* TaskModels.swift in Sources */,
+				A10000004 /* EmotionalModels.swift in Sources */,
+				A10000005 /* ColorExtension.swift in Sources */,
+				A10000006 /* MainTabView.swift in Sources */,
+				A10000007 /* FocusView.swift in Sources */,
+				A10000008 /* TaskListView.swift in Sources */,
+				A10000009 /* EmotionDashboardView.swift in Sources */,
+				A10000017 /* IOSToolsView.swift in Sources */,
+				A10000018 /* IOSProgressView.swift in Sources */,
+				A10000019 /* IOSEmotionLoggerSheet.swift in Sources */,
+				A10000020 /* IOSBreathingSheet.swift in Sources */,
+				A10000021 /* IOSGroundingSheet.swift in Sources */,
+				A10000022 /* IOSTaskEditorSheet.swift in Sources */,
+				A10000023 /* IOSSettingsView.swift in Sources */,
+				A10000025 /* IOSBodyScanSheet.swift in Sources */,
+				A10000026 /* IOSMuscleRelaxationSheet.swift in Sources */,
+				A10000027 /* IOSCognitiveReframingSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000024 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A80000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80000021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4PHJ4GRTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focus;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusautism.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80000022 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4PHJ4GRTD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Focus;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.focusautism.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000001 /* Build configuration list for PBXProject "FocusAutismIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000011 /* Debug */,
+				A80000012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000003 /* Build configuration list for PBXNativeTarget "FocusAutismIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000021 /* Debug */,
+				A80000022 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000001 /* Project object */;
+}

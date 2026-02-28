@@ -1,0 +1,11 @@
+.DS_Store
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+.swiftpm/
+.build/
+Packages/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+FocusAutismIOS/FocusAutismIOS.xcodeproj/xcuserdata/
+FocusAutismIOS.xcodeproj/project.xcworkspace/xcuserdata/
+DerivedData/
